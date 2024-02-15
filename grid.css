@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    grid-template-areas:
+        'a a Html Css Bootstrap'
+        'a a MySql React Angular'
+        'SpringBoot Java Pip Laravel Python';
+    gap:10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.item1{grid-area: a;}
+.item2{grid-area: Html;}
+.item3{grid-area: Css;}
+.item4{grid-area: Bootstrap;}
+.item5{grid-area: MySql;}
+.item6{grid-area: React;}
+.item7{grid-area: Angular;}
+.item8{grid-area: SpringBoot;}
+.item9{grid-area: Java;}
+.item10{grid-area: Pip;}
+.item11{grid-area: Laravel;}
+.item12{grid-area: Python;}
